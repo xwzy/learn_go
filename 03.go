@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
-import "os"
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
 	s, sep := "", ""
@@ -11,9 +13,3 @@ func main() {
 	}
 	fmt.Println(s)
 }
-
-
-
-
-
-
