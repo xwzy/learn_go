@@ -1,2 +1,2 @@
 # learn_go
-Learning Go
+学习GO语言的基本语法
