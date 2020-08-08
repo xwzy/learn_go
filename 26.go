@@ -12,3 +12,12 @@ const (
 func CToF(c Celsius) Fahrenheit { return Fahrenheit(c*9/5 + 32) }
 
 func FToC(f Fahrenheit) Celsius { return Celsius((f - 32) * 5 / 9) }
+
+
+
+var c Celsius
+var f Fahrenheit
+fmt.Println(c == 0)          // "true"
+fmt.Println(f >= 0)          // "true"
+fmt.Println(c == f)          // compile error: type mismatch
+fmt.Println(c == Celsius(f)) // "true"!
